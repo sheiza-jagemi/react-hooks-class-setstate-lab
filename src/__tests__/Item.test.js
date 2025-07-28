@@ -23,3 +23,4 @@ test("the <li> has a className of 'in-cart' when the Add to Cart button is click
   fireEvent.click(screen.getByText(/ Cart/));
   expect(container.querySelector(".in-cart")).toBeInTheDocument();
 });
+export default Item;
